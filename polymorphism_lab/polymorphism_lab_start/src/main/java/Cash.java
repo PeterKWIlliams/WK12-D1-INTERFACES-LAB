@@ -5,7 +5,15 @@ public class Cash implements IPay {
         this.amount = amount;
     }
 
+    public int getAmount() {
+        return amount;
+    }
+
+    public void setAmount(int amount) {
+        this.amount = amount;
+    }
+
     public String pay() {
-        return "Cash is good";
+        return "I paid";
     }
 }

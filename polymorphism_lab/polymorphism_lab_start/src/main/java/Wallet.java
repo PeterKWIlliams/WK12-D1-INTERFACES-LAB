@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class Wallet {
+public class Wallet  {
     private String name;
     private ArrayList<IScan> cards;
 
@@ -22,4 +22,11 @@ public class Wallet {
     }
 
 
+    public String scan() {
+        return null;
+    }
+
+    public String pay() {
+        return null;
+    }
 }
